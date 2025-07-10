@@ -111,7 +111,7 @@ if ($row['count'] == 0) {
                'Pre-Teens Department', 'Ushering Department', 'Greeters Department', 'Pastoral Aides', 'Protocols', 
                'Altar Keepers', 'Sanctuary Keepers', 'Exterior Keepers', 'Admin Department', 'Information Department', 
                'Service Coordination', 'Brand Management', 'Royal Host', 'Real Friends', 'Cell Ministry', 
-               'Maturity Operations', 'Community Outreach', 'Diplomatic Outreach', 'Medical Department1', 'Sports & Fitness'];
+               'Maturity Operations', 'Community Outreach', 'Diplomatic Outreach', 'Medical Department', 'Sports & Fitness'];
     
     $stmt = $conn->prepare("INSERT INTO class_groups (group_name) VALUES (?)");
     foreach ($groups as $group) {
