@@ -624,7 +624,7 @@ if ($result->num_rows > 0) {
     }
 }
 
-// Handle worker attendance report
+//  worker attendance report
 $worker_attendance = [];
 $worker_info = [];
 if (isset($_GET['view_worker_attendance']) && isset($_GET['worker_id'])) {
